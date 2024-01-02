@@ -1,0 +1,14 @@
+runtime: php74
+service: php-gcp
+
+#entrypoint: serve index.php
+
+handlers:
+
+  - url: /
+    script: auto
+
+automatic_scaling:
+  min_idle_instances: 1
+  max_idle_instances: 1
+  max_pending_latency: 2000ms
