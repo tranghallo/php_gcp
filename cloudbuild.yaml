@@ -1,4 +1,4 @@
 steps:
 
 - name: "gcr.io/cloud-builders/gcloud"
-  args: ["app", "deploy","services/php-gcp/app.yaml","--version=$BRANCH_NAME","--no-promote","--no-cache","--project=webpl-409602"]
+  args: ["app", "deploy","services/php_gcp/app.yaml","--version=$BRANCH_NAME","--no-promote","--no-cache","--project=webpl-409602"]
