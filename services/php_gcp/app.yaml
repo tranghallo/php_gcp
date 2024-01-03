@@ -2,6 +2,7 @@ runtime: php74
 service: php-gcp
 
 #entrypoint: serve index.php
+entrypoint: serve services/php_gcp/simpleform.php
 
 handlers:
   - url: /
