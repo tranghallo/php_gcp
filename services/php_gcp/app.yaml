@@ -4,7 +4,6 @@ service: php-gcp
 #entrypoint: serve index.php
 
 handlers:
-
   - url: /
     script: auto
 
